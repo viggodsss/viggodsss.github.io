@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas javascript</title>
+    <script src="apps.js"></script>
+    <style>
+      form{
+-ms-grid-row-align: center;
+      }
+    </style>
+</head>
+<body>
+    <html> 
+<head> 
+ <title> BIODATADIRI </title> 
+ <h2>
+</head> 
+
+<body bgcolor = "CRIMSOM"> 
+<script language="Javascript"> 
+ 
+ function tekan(form) 
+{ 
+
+var nimstr=(document.f10114044.nim.value); 
+var namastr=(document.f10114044.nama.value); 
+var jenisstr=(document.f10114044.jenis.value); 
+var agamastr=(document.f10114044.agama.value); 
+var status=""; 
+ if(form.status.checked==true) 
+  {status="Belum kawin";} 
+     else 
+  {status="Belum Kawin";} 
+var jurusanstr=(document.f10114044.jurusan.value); 
+var komstr=(document.f10114044.kom.value); 
+document.f10114044.onim.value=nimstr; 
+document.f10114044.onama.value=namastr; 
+document.f10114044.ojenis.value=jenisstr; 
+document.f10114044.oagama.value=agamastr; 
+document.f10114044.ostatus.value=status; 
+document.f10114044.ojurusan.value=jurusanstr; 
+document.f10114044.okom.value=komstr; 
+
+} 
+</script> 
+
+<center> 
+<h2><b> BIODATA MAHASISWA </h2></b> 
+<h2><b> POLITEKNIK AMAMAPARE TIMIKA </h2></b> 
+<pre><u></center></u></pre><br> 
+
+<form name="f10114044"><pre> 
+NIM               : <input type="number" size="35" name="NIM" value="22512046"> 
+Nama Mahasiswa    : <input type="text" size="35" name="nama" value="VINSENSIUS DANANG VIGGO SUDIANTO">
+Jenis Kelamin     : <select name="jenis" size="1"> 
+      <option value="PRIA">PRIA </option> 
+      <option value="PRIA"> PRIA</option> 
+      <option value="WANITA"> WANITA </option></select> 
+Agama             : <select name="AGAMA" size="1"> 
+       <option value="KHATOLIK">KHATOLIK</option> 
+       <option value="KHATOLIK"> KHATOLIK </option> 
+       <option value="KRISTEN"> KRISTEN </option> 
+       <option value="ISLAM"> ISLAM </option> 
+       <option value="BUDHA"> BUDHA </option> 
+       <option value="KONGHUCU"> KONGHUCU</option> 
+       <option value="HINDU"> HINDU </option></select> 
+Status               : <input type="radio" value="Kawin" name="status"> Belum Kawin
+Jurusan Di POLTEKAM  : <select name="jurusan" size="1"> 
+      <option value="Teknik Rekayasa Internet"> Teknik Rekayasa Internet</option> 
+    <option value="Teknik sipil"> Teknik sipil </option> 
+      <option value="Teknik mesin"> Teknik mesin </option> 
+      <option value="Teknik pertambangan"> Teknik pertambangan</option> 
+      <option value="Teknik listrik">Teknik listrik</option> 
+    </select> 
+Komentar          : <textarea name="kom" rows="4" cols="40" ></textarea></pre><br> 
+
+<center> 
+<input type="button" value="Kirim" onclick="tekan(this.form)"> 
+<input type="reset" value="Ulang"></center><br> 
+
+</form> 
+</body> 
+</html>
+</body>
+</html>
